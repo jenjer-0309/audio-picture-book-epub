@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Generated books are build outputs - don't commit them.
+# Add an explicit exception if you want to ship a sample.
+*.epub
+!samples/*.epub
+
+# Working directories produced while building
+build/
+dist/
+out/
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini

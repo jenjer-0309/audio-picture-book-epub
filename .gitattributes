@@ -1,0 +1,15 @@
+# Keep LF in the repository regardless of the platform that clones it.
+# The Python scripts and Markdown work everywhere with LF, and normalising to
+# CRLF on Windows checkout causes noisy diffs on every commit.
+* text=auto eol=lf
+
+# Never touch binary assets.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.mp3 binary
+*.m4a binary
+*.epub binary
+*.skill binary
